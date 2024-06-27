@@ -1,0 +1,1 @@
+Simply a function which returns a worker, running a script provided as a string.
