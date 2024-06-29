@@ -5,9 +5,9 @@ Simply a function which returns a worker, running a script provided as a string.
 const worker = stringWorker(`console.log('hello from the worker thread')`)
 ```
 
-For relative paths to imported modules, use `import.meta.resolve`
+For relative paths to imported modules, use `import.meta.resolve`.
 ```javascript
-const worker = stringWorker(`import '${import.meta.resolve('./something.js')}'`)
+const worker = stringWorker(`import '${import.meta.resolve('./example.js')}'`)
 ```
 
 As with any worker, remember to terminate it when it's done running.
