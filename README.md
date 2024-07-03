@@ -1,3 +1,5 @@
+[![JSR](https://jsr.io/badges/@mbartoldus/stringworker)](https://jsr.io/@mbartoldus/stringworker)
+
 # stringWorker
 
 The main export of this library is simply a function which returns a worker, running a script provided as a string.
